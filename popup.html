@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Renamer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 8px;
+            background-color: #f2f2f2; /* Light grey background, similar to light themes */
+            color: #333; /* Dark text color for contrast */
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 5px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc; /* Light grey border */
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 5px;
+            background-color: #0078D7; /* Opera blue */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056A3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="newTitle" placeholder="New Tab Title" autofocus>
+    <button id="renameTab">Rename Tab</button>
+    <script src="popup.js"></script>
+</body>
+</html>

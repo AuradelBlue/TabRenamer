@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Renamer",
+    "version": "1.0",
+    "description": "Rename your tabs with custom titles.",
+    "icons": {
+      "128": "icon.png"
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Tab Renamer"
+    },
+    "permissions": [
+      "tabs", "activeTab"
+    ]
+  }
+  
